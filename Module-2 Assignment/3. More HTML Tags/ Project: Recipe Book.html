@@ -5,10 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Recipe</title>
+    <style>
+        body{
+            font-family: Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        h3{
+            text-decoration: underline;
+            text-align: center;
+        }
+        li{
+            font-weight: 300;
+        }
+        #delicious{
+            color: coral;
+        }
+        .table-of-content-list{
+            list-style-type: square;
+        }
+        .procedure-list{
+            list-style: upper-roman;
+        }
+        .ingredient-list{
+            list-style: square;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Delicious Food Recipes</h1>
+    <h1><span id="delicious">Delicious</span> Food Recipes</h1>
     <h2 class="table-of-content-heading">
         Table of content
     </h2>
@@ -35,7 +62,7 @@
         <tbody>
             <tr>
                 <th>
-                    <ul>
+                    <ul class="ingredient-list">
                         <li>1 Chicken</li>
                         <li>1 Onion & 6 Pepper</li>
                         <li>1 tablespoon of cinnamon powder</li>
@@ -49,7 +76,7 @@
                             rel="noopener noreferrer">KN-pearl</a></p>
                 </th>
                 <th>
-                    <ul>
+                    <ul class="procedure-list">
                         <li>Use a blender to blend onion/pepper/ginger/garlic to make a mixture and pour on
                             a large
                             bowl, add seasoning/soy sauce/cinnamon powder and turn altogether. (marination)
@@ -87,7 +114,7 @@
         <tbody>
             <tr>
                 <th>
-                    <ul>
+                    <ul class="ingredient-list">
                         <li>1 Fish</li>
                         <li>Thyme(small amount)</li>
                         <li>2 Maggie/pinch salt</li>
@@ -102,7 +129,7 @@
                             rel="noopener noreferrer">KN-pearl</a></p>
                 </th>
                 <th>
-                    <ul>
+                    <ul class="procedure-list">
                         <li>With a clean water, Wash fish with salt and 1 spoon of vinegar both sides and
                             keep aside
                         </li>
@@ -138,7 +165,7 @@
         <tbody>
             <tr>
                 <th>
-                    <ul>
+                    <ul class="ingredient-list">
                         <li>All-purpose flour (the amount you want)</li>
                         <li>Green pepper, Cabbage, Carrots & Onions</li>
                         <li>Water & Oil</li>
@@ -152,7 +179,7 @@
                             rel="noopener noreferrer">KN-pearl</a></p>
                 </th>
                 <th>
-                    <ul>
+                    <ul class="procedure-list">
                         <li>First, we wash our hands, use a flat surface or a bowl, and pour flour (an
                             amount you want to make) make a hole in the middle and pour egg, sprinkle some
                             salt (optional), and then water. Knead the dough for some time until it all
@@ -192,7 +219,7 @@
         <tbody>
             <tr>
                 <th>
-                    <ul>
+                    <ul class="ingredient-list">
                         <li>4 cups of Flour</li>
                         <li>1 tsp Baking powder</li>
                         <li>2 Maggie/pinch salt</li>
@@ -207,7 +234,7 @@
                             rel="noopener noreferrer">KN-pearl</a></p>
                 </th>
                 <th>
-                    <ul>
+                    <ul class="procedure-list">
                         <li>Mix dry ingredient with flour,add butter,water and knead the dough until it
                             become soft and let it rise.
                         </li>
@@ -241,7 +268,7 @@
         <tbody>
             <tr>
                 <th>
-                    <ul>
+                    <ul class="ingredient-list">
                         <li>Cooked, chilled rice</li>
                         <li>Butter, Eggs, Garlic</li>
                         <li>Toasted sesame oil and oyster sauce</li>
@@ -256,7 +283,7 @@
                             rel="noopener noreferrer">Gimme-some-oven</a></p>
                 </th>
                 <th>
-                    <ul>
+                    <ul class="procedure-list">
                         <li>Scramble your eggs: Using a small pat of butter, scramble some eggs in a large sauté pan, breaking them into small pieces as you go.  Then transfer the eggs to a separate plate, and set aside.
                         </li>
                         <li>Sauté your veggies and garlic: Return your sauté pan to the heat, and sauté the onions, carrots, peas and garlic until soft and cooked through.</li>
