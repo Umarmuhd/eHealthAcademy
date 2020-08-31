@@ -1,4 +1,4 @@
-let grade = 200
+let grade = 80
 if (grade >= 70 && grade <= 100) {
     console.log("A - Distinction");
 } else if (grade >= 50 && grade <=60){
