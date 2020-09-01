@@ -6,5 +6,5 @@ if (grade >= 70 && grade <= 100) {
 } else if (grade <= 40){
     console.log("F - Fail");
 } else{
-    console.log("Wrong input");
+    console.log("Wrong input: Grade ranges 0 - 100");
 }
