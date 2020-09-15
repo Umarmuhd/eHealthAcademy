@@ -37,7 +37,15 @@
         console.log(dothEls);
         // Step 2: Iterate through them and change doth to does
         for (let i = 0; i < dothEls.length; i++) {
-            dothEls[i].innerHTML = "does";
+            dothEls[i].textContent = 'does'
+
+            // Bonus
+            // if ((dothEls[i].textContent === "doth")) {
+            //     dothEls[i].textContent = 'does'
+            // };
+            // if ((dothEls[i].textContent === "Doth")) {
+            //     dothEls[i].textContent = "Does"
+            // }
         }
     </script>
 </body>
